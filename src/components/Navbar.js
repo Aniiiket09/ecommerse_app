@@ -30,7 +30,16 @@ const Header = () => {
               Add Product
             </Link>
           </li>
-
+          <li className="option" onClick={closeMobileMenu}>
+            <Link to="/check-out" className="item">
+              Cheack Out
+            </Link>
+          </li>
+          <li className="option" onClick={closeMobileMenu}>
+            <Link to="/aboute-project-and-me" className="item">
+              About
+            </Link>
+          </li>
           <li className="option" onClick={closeMobileMenu}>
             <Link to="/cart" className="item">
               <div className="ui ">
